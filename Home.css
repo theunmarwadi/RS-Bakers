@@ -1,0 +1,166 @@
+/*---NAVBAR---*/
+.homenav {
+    background-image: linear-gradient(to right, #ffb366, #ff0000);
+    position: sticky;
+    z-index: 100;
+    position: relative !important;
+}
+
+.navlist li a {
+    color: #fff !important;
+    font-weight: 600;
+}
+.navlist li {
+	padding: 0 10px;
+ }
+.navicon {
+    color: #fff !important;
+}
+.fa-bars {
+    color: #fff !important;
+    font-size:  30px !important; 
+}
+
+.navicon {
+    outline: none !important; 
+    margin-right: 0rem;
+}
+
+.toplogo {
+    width : 50px;
+    height: 50px;
+    margin: 5px;
+}
+/*---After Nav--*/
+.prev-next {
+    background: #ffc2b3;
+}
+
+.main-carousel {
+height: 550px !important;
+}
+
+.nine {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+p, h2 {
+    font-family: 'Kalam', cursive;
+}
+
+.buybtn {
+    float: right;
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+}
+.buybtn:hover {
+    background-color: #ffb366 !important;
+    border-color: #ff0000 !important;
+  }
+
+h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-top: 5rem !important;
+}
+.toprated {
+    
+}
+
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 2rem;
+    padding: 16px 32px;
+    font-family: 'Kalam', cursive;
+  }
+  
+  .main {
+    margin-right: 1vw;
+    margin-left: 1vw;
+    position: relative;
+    width: 100%;
+  }
+  .hover-carousel {
+    margin: 7.5rem;
+    margin-top: 0rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .best-sellers {
+      flex-direction: column;
+    }
+    .hover-carousel {
+        margin: 0vh;
+    margin-top: 2vh;
+    }
+  }
+
+  .best-sellers {
+      display: flex;
+  }
+  .liked {
+    margin-bottom: 3.5rem;
+  }
+
+  /*--IMAGE--*/
+  .maincontain {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 6rem;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .paragraph {
+    font-family: 'Kalam', cursive;
+  }
+  /*--IMAGE--*/
+
+  /*--FOOTER--*/
+  footer {
+    background-image: linear-gradient(to right, #ffb366, #ff0000);
+  }
+
+  .white-text {
+      color: white;
+  }
+  .linkc {
+    color: #fff;
+  }
+  /*--FOOTER--*/

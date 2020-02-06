@@ -1,0 +1,49 @@
+p, h2 {
+    font-family: 'Kalam', cursive;
+}
+
+form {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .lastline  {
+      color: red;
+      font-style: oblique;
+      font-size: 300%;
+      text-align: center;
+      margin-top: 3rem !important;
+    }
+    
+    h2 {
+      color: red;
+      text-align: justify;
+      margin-top: 2rem !important;
+    }
+    
+    .button {
+      background-color: #ff0000;
+        border-color: #ff0000;
+    }
+    
+    .button:hover {
+      background-color: #ffb366;
+        border-color: #ff0000;
+    }
+    
+    input,button {
+      font-family: 'Kalam', cursive;
+    }
+    
+    .form-control {
+      height: 4rem;
+    }
+    
+    .marginrow {
+        margin: 30px;
+    }
+    .margintop {
+        margin-top: -3rem;
+        margin-bottom: 4rem;
+    }

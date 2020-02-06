@@ -1,0 +1,22 @@
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .paragraph {
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 19px;
+   font-family: 'Satisfy', cursive;
+   }
+
+   .abpara {
+    font-family: 'Kalam', cursive;
+  }
+.contai {
+    margin-top: 3.5rem;
+}
+.rowmarg {
+    margin-bottom: 3rem;
+}
